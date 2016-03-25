@@ -19,6 +19,7 @@ With an IMG tag:
 ``` html
 <img data-fitstuff src="foo.jpg" width="640" height="480" />
 ```
+
 With any other tag:
 
 ``` html
