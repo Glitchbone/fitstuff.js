@@ -17,12 +17,12 @@ Or you can add js/fitstuff.js manually to your project
 With an IMG tag:
 
 ``` html
-<img src="foo.jpg" width="640" height="480" />
+<img data-fitstuff src="foo.jpg" width="640" height="480" />
 ```
 With any other tag:
 
 ``` html
-<div data-width="640" data-height="480"></div>
+<div data-fitstuff data-width="640" data-height="480"></div>
 ```
 
 ##Methods
