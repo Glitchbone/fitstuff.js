@@ -1,6 +1,7 @@
 #fitstuff.js
 
-Elements scaling with intrinsic ratio
+Elements scaling with [intrinsic ratio](http://alistapart.com/article/creating-intrinsic-ratios-for-video)
+Inspired by [fluidvids.js](https://github.com/toddmotto/fluidvids)
 
 ##Installation
 
