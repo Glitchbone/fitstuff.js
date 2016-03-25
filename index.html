@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>fitstuff.js</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <img data-fitstuff src="http://lorempixel.com/640/480/" width="640" height="480" />
+
+    <div data-fitstuff data-width="800" data-height="600" style="background-color:red;"></div>
+
+    <img id="img2" src="http://lorempixel.com/320/180/" width="320" height="180" />
+
+    <div>
+        <button id="update">Update fitstuff</button>
+    </div>
+
+    <script type="text/javascript" src="js/fitstuff.js"></script>
+
+    <script>
+
+    var btn = document.getElementById('update');
+
+    btn.addEventListener('click', function(e) {
+
+        var img2 = document.getElementById('img2');
+
+        if (!img2.getAttribute('data-fitstuff')) {
+            img2.setAttribute('data-fitstuff', '');
+        }
+
+        fitstuff.update();
+
+    });
+
+    </script>
+
+</body>
+
+</html>

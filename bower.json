@@ -1,0 +1,23 @@
+{
+  "name": "fitstuff.js",
+  "version": "1.0.0",
+  "authors": [
+    "Adrien Glitchbone <adrien@glitchbone.com>"
+  ],
+  "description": "Elements scaling with intrinsic ratio",
+  "main": "js/fitstuff.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "responsive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
